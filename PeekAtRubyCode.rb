@@ -6,16 +6,13 @@ properties.each { |property| puts "Ruby is #{property}."}
 #Ruby is duck typed.
 #Ruby is productive.
 #Ruby is fun.
-<<<<<<< HEAD
   
 #[tav@inhambane ~]$ irb
 #irb(main):001:0> puts 'Hello, world'
 #Hello, world
 #=> nil
-=======
 
 #Output for samples on page 12:
->>>>>>> eef9bb649092882f59ca9b9005a71c6d7557a0d1
 #[tav@inhambane ~]$ irb
 #irb(main):001:0> puts 'Hello, world'
 #Hello, world
@@ -28,9 +25,6 @@ properties.each { |property| puts "Ruby is #{property}."}
 #irb(main):007:0> puts "hello, #{language}"
 #hello, my Ruby
 #=> nil
-<<<<<<< HEAD
-
-=======
 #irb(main):008:0> 4
 #=> 4
 #irb(main):009:0> 4.class
@@ -114,4 +108,3 @@ properties.each { |property| puts "Ruby is #{property}."}
 #This is sentence number 9.
 #This is sentence number 10.
 #=> nil
->>>>>>> eef9bb649092882f59ca9b9005a71c6d7557a0d1
