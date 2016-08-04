@@ -56,3 +56,14 @@ properties.each { |property| puts "Ruby is #{property}."}
 #=> nil
 #irb(main):030:0> puts 'This appears to be true.' if !true
 #=> nil
+# Duck typing:
+#irb(main):044:0> i=0
+#=> 0
+#irb(main):045:0> a=['100',100.0]
+#=> ["100", 100.0]
+#irb(main):046:0> while i<2
+#irb(main):047:1>   puts a[i].to_i
+#irb(main):048:1>   i=i+1
+#irb(main):049:1> end
+#100
+#100
