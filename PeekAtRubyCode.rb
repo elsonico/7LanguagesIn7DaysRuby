@@ -67,3 +67,39 @@ properties.each { |property| puts "Ruby is #{property}."}
 #irb(main):049:1> end
 #100
 #100
+
+#irb(main):057:0> i=0
+#=> 0
+#irb(main):058:0> while i < 10
+#irb(main):059:1>   i=i+1
+#irb(main):060:1>   puts 'Tapio'
+#irb(main):061:1> end
+#Tapio
+#Tapio
+#Tapio
+#Tapio
+#Tapio
+#Tapio
+#Tapio
+#Tapio
+#Tapio
+#Tapio
+#=> nil
+
+#irb(main):067:0> i=0
+#=> 0
+#irb(main):068:0> while i < 10
+#irb(main):069:1>   i=i+1
+#irb(main):070:1>   puts "This is sentence number #{i}."
+#irb(main):071:1> end
+#This is sentence number 1.
+#This is sentence number 2.
+#This is sentence number 3.
+#This is sentence number 4.
+#This is sentence number 5.
+#This is sentence number 6.
+#This is sentence number 7.
+#This is sentence number 8.
+#This is sentence number 9.
+#This is sentence number 10.
+#=> nil
